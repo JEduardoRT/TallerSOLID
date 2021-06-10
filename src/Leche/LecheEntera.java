@@ -9,5 +9,5 @@ import Postres.*;
 
 public abstract class LecheEntera {
     public abstract void usarHelado();
-    public abstract void usarPastel();
+    public abstract void usarPastel();  //Interface Segregation con Leche Destactosada
 }
