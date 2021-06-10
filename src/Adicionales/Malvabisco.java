@@ -7,15 +7,13 @@ package Adicionales;
 
 /**
  *
- * @author Pedro Mendoza
+ * @author Deja mi lapto ¬¬...!
  */
-public abstract class Aderezo {
-    protected String nombre;
-    
-    public abstract void setNombre(String nombre);
-    
+public class Malvabisco extends Aderezo{
+
     @Override
-    public String toString(){
-        return nombre.toUpperCase();
+    public void setNombre(String nombre) {
+        nombre= "malvabisco";
     }
+    
 }
