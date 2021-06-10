@@ -12,15 +12,16 @@ import Postres.Postre;
  * @author Bryan Segovia
  */
 public class ManejadorDePrecio {   //OCP
-    private double precioFinal;
-    public double calcularPrecioFinal(Postre p){
+    
+    private static double calcularPrecioFinal(Postre p){
+        double precioFinal;
         precioFinal= (p.getPrecioParcial()+(p.getPrecioParcial()*0.12) +(p.getAderezos().size()*0.50));
         
         return precioFinal;
     }
     
-    public String showPrecioFinal(){
-        return "El precio final es: " + precioFinal;
+    public static String showPrecioFinal(Postre p){
+        return "El precio final es: " + calcularPrecioFinal(p);
     }
     
     

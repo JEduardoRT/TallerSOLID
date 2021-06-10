@@ -11,9 +11,13 @@ package Adicionales;
  */
 public class Malvabisco extends Aderezo{
 
+    public Malvabisco() {
+        setNombre();
+    }
+    
     @Override
-    public void setNombre(String nombre) {
-        nombre= "malvabisco";
+    public void setNombre() {
+        nombre = "malvabisco";
     }
     
 }

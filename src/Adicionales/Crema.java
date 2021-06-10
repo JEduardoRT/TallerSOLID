@@ -11,9 +11,13 @@ package Adicionales;
  */
 public class Crema extends Aderezo{
 
+    public Crema() {
+        setNombre();
+    }
+    
     @Override
-    public void setNombre(String nombre) {
-        nombre= "crema";
+    public void setNombre() {
+        nombre = "crema";
     }
     
 }

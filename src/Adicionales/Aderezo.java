@@ -12,7 +12,7 @@ package Adicionales;
 public abstract class Aderezo {
     protected String nombre;
     
-    public abstract void setNombre(String nombre);
+    public abstract void setNombre();
     
     @Override
     public String toString(){

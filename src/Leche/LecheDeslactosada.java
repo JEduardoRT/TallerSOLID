@@ -17,7 +17,8 @@ public class LecheDeslactosada extends LecheEntera {
     }
 
     @Override
-    public void usarPastel() {  // Interface Segregation
+    public void usarPastel() {
+        System.out.println("");
         // Lanzar error No se puede usar en pastel
         throw new RuntimeException(this.getClass() + ": No se puede usar en pastel");
     }
