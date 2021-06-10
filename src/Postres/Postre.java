@@ -21,11 +21,11 @@ public abstract class Postre {
         return aderezos;
     }
     
-    public static void anadirAderezo(Postre postre, Aderezo aderezo){
-        postre.getAderezos().add(aderezo);
+    public void anadirAderezo(Aderezo aderezo){
+        aderezos.add(aderezo);
     }
     
-    public static void quitarAderezo(Postre postre,Aderezo aderezo){
-        postre.getAderezos().remove(aderezo);
+    public void quitarAderezo(Aderezo aderezo){
+        aderezos.remove(aderezo);
     }
 }
